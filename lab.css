@@ -114,7 +114,6 @@ nav li{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
-    color:white;
     display:inline-block;
     width: 400px;
     height:300px;
@@ -132,11 +131,11 @@ nav li{
 
 
 #table a:link{
-   color:black;
+   color:currentColor;
    text-decoration: none;
 }
 #table a:visited{
-    color:rgba(4, 14, 31, 0.925);
+    color:currentColor;
     text-decoration: none;
  }
 
@@ -151,7 +150,7 @@ nav li{
     font-size:20px;
     text-align: center;
     border-radius: 10px;
-    color:black;
+    color:white;
     font-family:Ringside Regular A,Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
     padding:0 1px;
     border-color:black;
