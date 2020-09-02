@@ -1,0 +1,201 @@
+body {
+    --accent-color: #D0D066;
+    --background-color: #333;
+    --text-color:white;  
+    --button-text-color: var(--background-color);
+    --transition-delay: 1s;
+  
+  
+  
+      height: 100%;
+      justify-content: center;
+    align-items: center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    margin: 0;
+    
+  
+    transition: var(--transition-delay);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+
+body.dark {
+    --accent-color:rgb(240, 95, 37) ;
+    --background-color:white;
+    --text-color: black;
+  }
+
+  .theme-toggle-button {
+    background-color: var(--accent-color);
+    color: var(--button-text-color);
+    justify-content: center;
+    text-align: center;
+  
+    
+    
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: .3em;
+    border: none;
+    outline: none;
+    transition: var(--transition-delay);
+    transform: scale(1);
+  }
+
+header{
+    
+    font-weight: bold;
+    font-size: 60px;
+    padding:10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+nav ul{
+    padding-left:0px;
+    
+}
+
+nav li{
+    list-style-type: none;
+    font-size:25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    display: inline;
+    float:left;
+   
+
+}
+
+.contribute{
+    float:right;
+    padding-right:10px;
+}
+
+
+
+.anav a:link,.anav a:visited{
+    color: currentColor;
+    text-decoration-color: orangered;
+}
+
+.anav a:hover{
+    color:orangered;
+    text-decoration-color:rgb(245, 203, 68);
+}
+
+
+.anav a{
+    color:white;
+    margin-left:20px;
+    text-decoration-line: underline;
+    text-decoration-color: orangered;
+}
+
+#clock{
+    text-align: center;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+
+#table ul{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color:white;
+    display:inline-block;
+    width: 400px;
+    height:300px;
+    padding: 0 16px;
+    text-decoration-color: orangered;
+    font-weight: bolder;
+    
+    
+}
+
+#table a{
+    text-decoration: none;
+}
+
+
+
+#table a:link{
+   color:black;
+   text-decoration: none;
+}
+#table a:visited{
+    color:rgba(4, 14, 31, 0.925);
+    text-decoration: none;
+ }
+
+#table a:hover {
+    color:rgb(243, 247, 43);
+}
+
+
+#table li{
+    background-color:black;
+    text-align: left;
+    font-size:20px;
+    text-align: center;
+    border-radius: 10px;
+    color:black;
+    font-family:Ringside Regular A,Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    padding:0 1px;
+    border-color:black;
+    border-style:double;
+    margin-bottom: 5px;
+    background: linear-gradient(45deg,#ff7300,#ff0953);
+    font-weight: bold;
+    list-style-type: none;
+}
+
+#table span{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right:10px;
+    text-align: center;
+    
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width:400px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(163, 161, 161);
+    min-width: 360px;
+    box-shadow: 0px 8px 20px 0px rgb(0, 0, 0);
+    padding: 10px 16px;
+    z-index: 1;
+    border-radius: 20px;
+    text-align:center;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+
+
+
